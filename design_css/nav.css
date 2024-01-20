@@ -1,0 +1,142 @@
+#level_1 {
+	list-style: none;
+}
+#level_1 li {
+	float: left;
+	display: block;
+	z-index: 999;
+	margin: 0px!important;
+	position:relative;
+}
+#level_1 li a {
+	position: relative;
+	font-weight: 500;
+	display: block;
+	text-decoration: none;
+	color: #fff !important;
+	zoom: 1;
+	padding: 12px 15px 13px;
+	font-size: 14px;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+}
+#level_1 li a.has-nav {
+	position: relative;
+}
+#level_1 li a.has-nav::after {
+ font-family: 'FontAwesome';
+ color: #fff;
+ margin-left: 10px;
+ text-align: center;
+ -webkit-transition: all 0.4s ease-out;
+ -moz-transition: all 0.4s ease-out;
+ -ms-transition: all 0.4s ease-out;
+ -o-transition: all 0.4s ease-out;
+ transition: all 0.4s ease-out;
+ content: "\f0d7    ";
+ font-weight: normal;
+}
+#level_1 li a:hover:after, #level_1 li a.active:after { 
+	color:#fff!important
+}
+#level_1 li a:hover, #level_1 li a.active {
+	background:#03849f;
+	color:#fff!important
+}
+
+/*********************************************************************************
+level 2 start
+***************/
+#level_1 #level_2 {
+	position: absolute;
+	z-index:1;
+	top:45px;
+	display: block;
+	max-height: 0px;
+	max-width: 0px;
+	opacity: 0;
+	overflow: hidden;
+	webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-transform: perspective( 600px ) rotateX( 40deg );
+	-moz-transform: perspective( 600px ) rotateX( 40deg );
+	-ms-transform: perspective( 600px ) rotateX( 40deg );
+	-o-transform: perspective( 600px ) rotateX( 40deg );
+	transform: perspective( 600px ) rotateX( 40deg );
+	-webkit-transition: -webkit-transform 0.5s ease, opacity 0.6s ease, max-height 0.6s step-end, max-width 0.6s step-end, padding 0.6s step-end;
+	-o-transition: -o-transform 0.5s ease, opacity 0.6s ease, max-height 0.6s step-end, max-width 0.6s step-end, padding 0.6s step-end;
+	transition: transform 0.5s ease, opacity 0.6s ease, max-height 0.6s step-end, max-width 0.6s step-end, padding 0.6s step-end;
+	-webkit-box-shadow: 0px 15px 28px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 15px 28px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 15px 28px rgba(0, 0, 0, 0.1);
+}
+#level_1 #level_2 li {
+	min-width: 200px;
+	float: none;
+	text-align: left;
+	position:relative;
+	white-space:nowrap;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+}
+#level_1 #level_2 a {
+	border-bottom: 1px rgba(255,255,255,0.2)  solid;
+	border-top:0px;
+	background:#03849f;
+	color:#fff!important;
+	padding-top:12px;
+	padding-bottom:12px;
+	text-transform:inherit
+}
+#level_1 #level_2 li:last-child a {
+	border: none;
+}
+#level_1 #level_2 li a:hover {
+	background:#eee;color:#666!important;
+}
+/**********************************************************/
+#level_1 li:hover #level_2 {
+	overflow: visible;
+	max-height: 3000px;
+	max-width: 3000px;
+	opacity: 1;
+	-webkit-transform: perspective( 600px ) rotateX( 0deg );
+	-moz-transform: perspective( 600px ) rotateX( 0deg );
+	-ms-transform: perspective( 600px ) rotateX( 0deg );
+	-o-transform: perspective( 600px ) rotateX( 0deg );
+	ransform: perspective( 600px ) rotateX( 0deg );
+	-webkit-transition: -webkit-transform 0.5s ease, opacity 0.2s ease, max-height 0s step-end, max-width 0s step-end, padding 0s step-end;
+	-o-transition: -o-transform 0.5s ease, opacity 0.2s ease, max-height 0s step-end, max-width 0s step-end, padding 0s step-end;
+	transition: transform 0.5s ease, opacity 0.2s ease, max-height 0s step-end, max-width 0s step-end, padding 0s step-end;
+}
+}
+#level_1 li:hover #level_2 li {
+	width: 200px;
+	float: none;
+	text-align: left;
+	position:relative;
+}
+/**********************************************************/
+
+
+
+
+ @media only screen and (min-width:320px) and (max-width:767px) {
+ 
+}
+ @media only screen and (min-width:768px) and (max-width:991px) {
+ 
+}
+ @media only screen and (min-width:992px) and (max-width:1169px) {
+ 
+}

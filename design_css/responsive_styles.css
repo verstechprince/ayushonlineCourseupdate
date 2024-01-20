@@ -1,0 +1,201 @@
+@media only screen and (min-width:320px) and (max-width:991px) {
+h1 {
+ font-size:26px!important;
+}
+ h2 {
+ font-size:21px!important;
+}
+ h3 {
+ font-size:19px!important;
+}
+ h4 {
+ font-size:15px!important;
+}
+}
+@media only screen and (min-width:320px) and (max-width:767px) {
+/* header */
+ 
+header .logo img {
+    max-width: 80px;
+}
+header .social-nav { 
+	display: none;
+}
+header .cont-nav  { 
+	display: none;
+} 
+header .cont-nav ul a {
+	 padding-left: 0; padding-right:0
+}
+
+header .user-nav { 
+	margin: 22px 0px !important;
+}
+ 
+header .user-nav ul a { 
+	padding: 3px 3px 6px 4px;
+	font-size: 13px; 
+}
+.search-bar {
+	    display: none;
+} 
+.shop-cart { 
+    margin: 15px  5px 0px 5px; 
+}
+header .nav-brdr { 
+    display: none;
+}
+/**/
+section.contents .content-bar {
+	padding: 20px 0;  
+}
+/**/
+.courses-bar  { 
+	padding: 20px 0px  20px!important; 
+}
+.series-bar { 
+	padding: 20px 0px  120px!important; 
+}
+ 
+ 
+/**/
+.count-bar {
+	background-size: 400%;padding: 25px 20px 25px; margin-right:0
+}
+.count-col.count-brdr {
+	border: 0px;
+	margin-bottom: 20px; 
+}
+.count-col .main-text {
+	font-size: 40px !important; 
+}
+/**/
+.home-info-bar .btn-more { 
+	margin-right: 0px; 
+}
+/* page banner*/
+.banner-bar {
+
+}
+/**/
+.reg-form-box {
+	padding: 15px;
+
+}
+/**/
+.video-col-bar {
+    padding: 50px 0 30px;
+ }
+.video-col-bar .video-col {
+    padding: 0 10px;
+}
+.video-col-bar .main-head {  
+	font-size: 20px !important;
+}
+.video-col-bar  .main-head span {
+    color: #fff;
+    line-height: 20px!important;
+    margin-top: 10px;
+    display: block;
+}
+.video-col-bar  .video-btn {
+ 
+	padding: 15px 20px; 
+	font-size: 20px;
+}
+/**/
+.home-web-col-bar {
+	background: #fff;
+	padding: 20px  0px 0px;
+}
+.home-web-col {
+	padding: 5px 10px !important;
+
+}
+.home-web-col h4 { 
+	margin: 13px 0 30px !important; 
+}
+.home-web-col:nth-child(3), .home-web-col:nth-child(4) { 
+	padding-top: 25px !important; margin-bottom:10px
+}
+.upd-col .upd-mid {
+	padding: 0px 10px;
+	height: auto; 
+}
+.upd-col .upd-mid .upd-info .upd-pic {
+	width: 50px; 
+}
+.upd-col .upd-mid .upd-info .upd-pic img {
+ 
+	height: 50px;
+}
+.upd-col .upd-mid .upd-info .upd-txt {
+	width: calc(100% - 65px ); 
+}
+.upd-col .upd-mid .upd-info .upd-txt .upd-title { 
+	margin-top: 0px !important;
+}
+/*contact bar*/
+.contact-bar .no-padding-right{ padding-right:15px!important}
+.contact-bar .no-padding-left{padding-left:15px!important}
+.contact-bar .cont-nav {
+	 
+	padding: 22px; 
+}
+ 
+/* footer */
+footer .down-app { 
+	margin-right: 0px;
+}
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+/* header */
+header .cont-nav {
+    float: left;
+    margin-right: 0;
+}
+header .cont-nav ul a { 
+    padding-right: 15px; 
+}
+.search-bar {
+    width: 250px;
+        float: right; margin-right: 5px;
+}
+.search-bar .btn-search { 
+    padding: 6px 5px 6px;
+}
+.search-bar .form-control { 
+    padding: 6px 12px 5px!important; 
+}
+header .social-nav { 
+	display: none;
+}
+header .nav-bar .btn-app {
+ 
+	padding: 13px 5px;  
+	font-size: 13px; 
+}
+.courses-bar { 
+	padding: 30px 0px 20px !important; 
+}
+  .series-bar  { 
+	padding: 30px 0px 120px !important; 
+}
+/* footer */
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+ 
+.courses-bar { 
+	padding: 30px 0px 30px!important; 
+}
+.series-bar { 
+	padding: 30px 0px 120px!important; 
+}
+.upd-col .upd-mid .upd-info .upd-txt .upd-title {
+	margin-top: 0px !important;
+} 
+.upd-col .upd-mid .upd-info .upd-txt .upd-shrt-txt {
+ 	font-size: 13px !important;
+}
+/* footer */
+}
