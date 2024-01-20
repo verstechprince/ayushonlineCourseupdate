@@ -1,0 +1,82 @@
+.drawer {
+    width: 100%;
+    background: #14b9db;
+    border-radius: 5px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+.accordion-item {
+ 
+}
+.accordion-item-active .accordion-header { 
+ 
+}
+.accordion-item-active .accordion-header-icon {
+	color:#fff;
+}
+.accordion-item-active .accordion-header h1 {
+	font-size:15px; 
+}
+.accordion-header {
+    clear: both;
+    padding: 14px 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .25s;
+}
+.accordion-header h1 {
+    width: calc(100% - 30px);
+    float: left;
+    font-size: 14px!important;
+    color: #fff;
+    margin-bottom: 0!important;
+}
+.accordion-header h1 .fa {
+	color:#94280c;
+	border-right:1px solid;
+	padding-right:10px;
+	margin-right:10px;
+}
+.accordion-content {
+    display: none;
+    padding: 0px 10px 10px;
+    color: #fff; 
+    font-size: 13px; 
+}
+.accordion-header-icon {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: right;
+    color: #fff;
+    font-size: 15px;
+    line-height: 12px;
+    width: 25px; 
+    text-align: right;
+}
+.accordion-header-icon:before {
+	content: "\f107";
+	font: normal normal normal 13px/1 FontAwesome;
+	margin-right:5px; 
+	color:#fff;
+}
+
+
+.accordion-header-icon.accordion-header-icon-active {
+	 
+	color:#eea43e;
+}
+
+.accordion-header-icon.accordion-header-icon-active:before {
+content: "\f106 ";color:#fff;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {.accordion-header h1 {
+	 
+	font-size:16px!important;
+	width:94%;
+ 
+}
+.accordion-item-active .accordion-header h1 {
+	font-size:16px!important;
+	width:94%;
+}
+}

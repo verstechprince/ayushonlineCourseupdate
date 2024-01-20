@@ -1,0 +1,15 @@
+.fancybox-skin {
+ background: #fff;
+ -webkit-border-radius: 0px;
+ -moz-border-radius: 0px;
+ border-radius: 0;
+}
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+ background-image: url('fancybox_custom.png');
+/* background-color: #f31e27;
+ background-position: 25.5% 2.5%;*/
+ top: 0px;
+ right: -30px;
+ width: 30px;
+ height: 30px;
+}
